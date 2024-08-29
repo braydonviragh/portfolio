@@ -44,3 +44,7 @@ A personal portfolio website for Braydon Viragh, a Full Stack Developer speciali
    # or
    yarn
    ```
+ 3. Deploy:
+   ```
+   quasar dev
+   ```
