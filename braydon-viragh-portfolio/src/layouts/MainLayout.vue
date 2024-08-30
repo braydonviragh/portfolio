@@ -142,7 +142,7 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 
 .page-content {

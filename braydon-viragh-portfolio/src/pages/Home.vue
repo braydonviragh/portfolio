@@ -3,13 +3,12 @@
     <q-card flat bordered class="bg-transparent text-white q-pa-md">
       <q-card-section>
         <div class="text-h2 q-mb-md">Braydon Viragh</div>
-        <div class="text-h5 q-mb-lg">Full Stack Developer</div>
+        <div class="text-h5 q-mb-lg">Full Stack Developer <span class="text-primary">Frontend UI/UX Focused</span></div>
         <p class="text-body1 q-mb-lg">
-          Self-taught, self-driven, self-motivated developer specializing in Frontend UI/UX. Coding is a passion that serves as a toolkit for achieving my true goal: 
-          building great products. 
+          Self-taught, self-driven, self-motivated.
         </p>
         <p class="text-body1 q-mb-lg">
-            I thrive on taking on complex challenges and breaking them down into simple, understandable solutions that make a real positive impact to the user experience.
+            I thrive on taking on complex challenges, learning new technologies, and providing solutions that make an impact.
         </p>
         <div class="flex justify-center q-gutter-md">
           <q-btn

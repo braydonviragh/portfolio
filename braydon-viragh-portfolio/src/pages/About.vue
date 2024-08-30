@@ -22,23 +22,23 @@
           class="bg-transparent text-white shadow-1 rounded-borders full-width"
         >
           <q-carousel-slide :name="1" class="column no-wrap flex-center">
-            <div class="text-h5 q-mb-md">Foundation in Technical Curiosity</div>
+            <div class="text-h5 q-mb-md">Tech Enthusiast</div>
             <p class="text-body1 q-mb-lg text-center">
-              My journey in technology began with a natural inclination towards understanding complex systems. This early interest in computers and problem-solving laid the groundwork for my career in software development, where I continually apply analytical thinking to create innovative solutions.
+              Since childhood, I've been fascinated by computers and technology. I was always the first to tinker, break things apart, and reassemble them. This curiosity has driven my passion for software development. There's always something new to learn and upgrade.
             </p>
           </q-carousel-slide>
 
           <q-carousel-slide :name="2" class="column no-wrap flex-center">
-            <div class="text-h5 q-mb-md">Analytical Approach to Development</div>
+            <div class="text-h5 q-mb-md">Solution Oriented</div>
             <p class="text-body1 q-mb-lg text-center">
-              In software development, I've found a perfect outlet for my problem-solving skills. I approach each project with an objective mindset, breaking down complex issues into manageable components. This methodical approach allows me to develop efficient, scalable solutions that address core business needs.
+              I have a solutions-oriented personality that drives me to always find answers. If I don't have a solution immediately, you can bet I'm working on one.   I thrive on challenges and view them as opportunities to innovate and improve.
             </p>
           </q-carousel-slide>
 
           <q-carousel-slide :name="3" class="column no-wrap flex-center">
-            <div class="text-h5 q-mb-md">User-Centric Solutions</div>
+            <div class="text-h5 q-mb-md">Simplifying Complexity</div>
             <p class="text-body1 q-mb-lg text-center">
-              My focus extends beyond just writing code; I'm committed to creating digital solutions that enhance user experiences. By bridging technical complexity with intuitive design, I strive to develop applications that are not only functionally robust but also user-friendly and impactful.
+              I love taking complex ideas and problems and transforming them into user-friendly solutions. My goal is to ensure that the end-user has a positive and seamless experience.
             </p>
           </q-carousel-slide>
 
