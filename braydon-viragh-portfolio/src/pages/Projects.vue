@@ -5,7 +5,7 @@
         bordered
         class="bg-transparent text-white q-pa-lg">
       <q-card-section>
-        <div class="text-h3 q-mb-md">Projects</div>
+        <div class="text-h3">Projects</div>
         <q-carousel
           v-model="slide"
           transition-prev="slide-right"
@@ -16,7 +16,8 @@
           navigation
           padding
           arrows
-          class="shadow-2 rounded-borders"
+          height="500px"
+          class="bg-transparent text-white shadow-1 rounded-borders full-width carousel-container"
         >
           <q-carousel-slide
             v-for="(project, index) in projects"
@@ -53,7 +54,7 @@
     </q-card>
 
     <q-dialog v-model="projectModalOpen" :maximized="$q.screen.lt.sm">
-      <q-card v-if="selectedProject" class="project-modal" style="width: 75%; max-width: 1000px;">
+      <q-card v-if="selectedProject" class="project-modal" style="width: 75%; max-width: 1000px; height: 75%;">
         <q-img :src="selectedProject.coverImage" />
         <q-card-section>
           <div class="text-h4">{{ selectedProject.title }}</div>
@@ -174,9 +175,5 @@ const slide = ref(0)
 
 .project-modal {
   border-radius: 8px;
-}
-
-.q-carousel {
-  background: transparent;
 }
 </style>

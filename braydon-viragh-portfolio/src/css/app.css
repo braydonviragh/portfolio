@@ -41,3 +41,30 @@ h1 {
   background-color: var(--color-secondary);
   color: var(--color-sidebar);
 }
+
+/* Carousel styles */
+.carousel-container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.q-carousel__navigation {
+  top: auto !important;
+  bottom: 16px !important;
+}
+
+@media (max-width: 767px) {
+  .q-carousel {
+    height: 400px !important;
+  }
+
+  .q-carousel__slide {
+    padding: 16px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .q-carousel__slide {
+    padding: 0 16px;
+  }
+}

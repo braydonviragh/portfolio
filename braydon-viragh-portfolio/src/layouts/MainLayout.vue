@@ -58,16 +58,16 @@
 
     <q-page-container>
       <div class="scroll-container">
-        <section id="home" ref="homeSection" class="page-section">
+        <section id="home" ref="homeSection" class="page-section text-center sm:text-left p-0 md:p-5">
           <Home />
         </section>
-        <section id="about" ref="aboutSection" class="page-section">
+        <section id="about" ref="aboutSection" class="page-section text-center sm:text-left p-0 md:p-5">
           <About />
         </section>
-        <section id="skills" ref="skillsSection" class="page-section">
+        <section id="skills" ref="skillsSection" class="page-section text-center sm:text-left p-0 md:p-5">
           <Skills />
         </section>
-        <section id="projects" ref="projectsSection" class="page-section">
+        <section id="projects" ref="projectsSection" class="page-section text-center sm:text-left p-0 md:p-5">
           <Projects />
         </section>
       </div>
@@ -138,11 +138,9 @@ onMounted(() => {
   scroll-snap-align: start;
   scroll-snap-stop: always;
   height: 100vh;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
 }
 
 .page-content {
