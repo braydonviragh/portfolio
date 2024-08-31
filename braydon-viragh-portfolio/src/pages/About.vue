@@ -24,21 +24,21 @@
           <q-carousel-slide :name="1" class="column no-wrap flex-center p-0 md:p-5">
             <div class="text-h5 q-mb-md">Tech Enthusiast</div>
             <p class="text-body1 q-mb-lg text-center">
-              Since childhood, I've been fascinated by computers and technology. I was always the first to tinker, break things apart, and reassemble them. This curiosity has driven my passion for software development. There's always something new to learn and upgrade.
+              Since childhood, I've been fascinated by computers and technology. I was always the first to tinker, break things apart, and reassemble them. This curiosity has led me to a career in software development. There's always something new to learn and discover.
             </p>
           </q-carousel-slide>
 
           <q-carousel-slide :name="2" class="column no-wrap flex-center p-0 md:p-5">
             <div class="text-h5 q-mb-md">Solution Oriented</div>
             <p class="text-body1 q-mb-lg text-center">
-              I have a solutions-oriented personality that drives me to always find answers. If I don't have a solution immediately, you can bet I'm working on one.   I thrive on challenges and view them as opportunities to innovate and improve.
+              I have a solutions-oriented work ethic that drives me to always find answers. If I don't have a solution immediately, you can bet I'm working on one, and will update you as I make progress.
             </p>
           </q-carousel-slide>
 
           <q-carousel-slide :name="3" class="column no-wrap flex-center p-0 md:p-5">
             <div class="text-h5 q-mb-md">Simplifying Complexity</div>
             <p class="text-body1 q-mb-lg text-center">
-              I love taking complex ideas and problems and transforming them into user-friendly solutions. My goal is to ensure that the end-user has a positive and seamless experience.
+              Taking complex ideas and problems and transforming them into user-friendly solutions. Coding languages are complex and I love to simplify it. My goal is to ensure that the user has a positive and seamless experience.
             </p>
           </q-carousel-slide>
 

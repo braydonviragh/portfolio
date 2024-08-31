@@ -1,11 +1,12 @@
 <template>
-  <q-page class="flex flex-center">
+  <div class="full-width flex flex-center q-pa-md">
     <q-card
         flat
         bordered
-        class="bg-transparent text-white q-pa-lg">
+        class="bg-transparent text-white full-width"
+    >
       <q-card-section>
-        <div class="text-h3">Projects</div>
+        <div class="text-h3 text-center q-mb-md">Projects</div>
         <q-carousel
           v-model="slide"
           transition-prev="slide-right"
@@ -16,7 +17,6 @@
           navigation
           padding
           arrows
-          height="500px"
           class="bg-transparent text-white shadow-1 rounded-borders full-width carousel-container"
         >
           <q-carousel-slide
@@ -43,9 +43,6 @@
                     </div>
                   </div>
                 </q-img>
-                <q-card-section>
-                  <div class="text-subtitle2">{{ project.description }}</div>
-                </q-card-section>
               </q-card>
             </div>
           </q-carousel-slide>
@@ -93,7 +90,7 @@
         </q-card-actions>
       </q-card>
     </q-dialog>
-  </q-page>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -151,6 +148,37 @@ const slide = ref(0)
 </script>
 
 <style scoped>
+.full-width {
+  width: 100%;
+}
+
+.carousel-container {
+  height: calc(100vh - 200px);
+  min-height: 400px;
+  max-height: 700px;
+}
+
+.q-carousel__navigation {
+  top: auto !important;
+  bottom: 16px !important;
+}
+
+@media (max-width: 767px) {
+  .carousel-container {
+    height: calc(100vh - 150px);
+  }
+
+  .q-carousel__slide {
+    padding: 16px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .q-carousel__slide {
+    padding: 0 16px;
+  }
+}
+
 .project-card {
   cursor: pointer;
   transition: transform 0.2s;

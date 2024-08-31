@@ -141,6 +141,7 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .page-content {

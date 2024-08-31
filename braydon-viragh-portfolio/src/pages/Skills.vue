@@ -25,16 +25,16 @@
   <script setup lang="ts">
   const skills = [
     {
-      title: 'Clean Coding',
-      description: 'Following SOLID, DRY, and KISS principles. Writing clear, maintainable code.',
+      title: 'Clear Communication',
+      description: 'Providing regular updates, accurate estimates, and meeting deadlines. Ensuring transparency throughout the development process.',
     },
     {
-      title: 'Mobile-First Design',
-      description: 'Creating responsive layouts. Using modern CSS techniques.',
+      title: 'Scalable Code Without Technical Debt',
+      description: 'Adhering to best practice principles such as KISS, DRY, and SOLID, to ensure scalable, maintainable, and efficient code.',
     },
     {
-      title: 'Modern Workflow',
-      description: 'Using Git, CI/CD, and Agile methods. Experienced with Docker.',
+      title: 'Ownership and Pride',
+      description: 'Taking full responsibility for my work and delivering high-quality results. Committed to creating code and products I\'m proud to showcase.',
     },
   ]
 
