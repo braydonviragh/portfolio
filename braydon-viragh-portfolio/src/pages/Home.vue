@@ -27,7 +27,7 @@
           label="GitHub"
           size="lg"
           type="a"
-          href="https://github.com/braydon-viragh"
+          href="https://github.com/braydonviragh"
           target="_blank"
           rel="noopener noreferrer"
         />

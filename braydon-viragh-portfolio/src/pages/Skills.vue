@@ -25,15 +25,15 @@
   <script setup lang="ts">
   const skills = [
     {
-      title: 'Clear Communication',
+      title: 'Strong Communication',
       description: 'Providing regular updates, accurate estimates, and meeting deadlines. Ensuring transparency throughout the development process.',
     },
     {
-      title: 'Scalable Code Without Technical Debt',
+      title: 'Never Technical Debt',
       description: 'Adhering to best practice principles such as KISS, DRY, and SOLID, to ensure scalable, maintainable, and efficient code.',
     },
     {
-      title: 'Ownership and Pride',
+      title: 'Ownership Focused',
       description: 'Taking full responsibility for my work and delivering high-quality results. Committed to creating code and products I\'m proud to showcase.',
     },
   ]
