@@ -17,7 +17,7 @@
           navigation
           padding
           arrows
-          class="bg-transparent text-white shadow-1 rounded-borders full-width carousel-container"
+          class="bg-transparent text-white shadow-1 rounded-borders carousel-container max-w-[800px]"
         >
           <q-carousel-slide
             v-for="(project, index) in projects"
@@ -51,7 +51,7 @@
     </q-card>
 
     <q-dialog v-model="projectModalOpen" :maximized="$q.screen.lt.sm">
-      <q-card v-if="selectedProject" class="project-modal" style="width: 75%; max-width: 1000px; height: 75%;">
+      <q-card v-if="selectedProject" class="project-modal w-3/4 max-w-[1000px] h-3/4">
         <q-img :src="selectedProject.coverImage" />
         <q-card-section>
           <div class="text-h4">{{ selectedProject.title }}</div>
@@ -74,18 +74,27 @@
             {{ tech }}
           </q-chip>
         </q-card-section>
-        <q-card-actions align="right">
+        <q-card-actions align="right" class="q-pa-md">
+          <q-btn
+            flat
+            label="View Code on GitHub"
+            color="primary"
+            :href="selectedProject.githubLink"
+            target="_blank"
+            class="q-mr-sm bg-primary text-white"
+          />
+          <q-btn
+            flat
+            label="Visit Project"
+            color="primary"
+            :href="selectedProject.link"
+            target="_blank"
+          />
           <q-btn
             v-close-popup
             flat
             label="Close"
-            color="primary" />
-          <q-btn 
-            flat 
-            label="Visit Project" 
-            color="primary" 
-            :href="selectedProject.link" 
-            target="_blank" 
+            color="primary"
           />
         </q-card-actions>
       </q-card>
@@ -100,6 +109,7 @@ interface Project {
   title: string;
   description: string;
   link: string;
+  githubLink: string;
   coverImage: string;
   features: string[];
   techStack: string[];
@@ -113,6 +123,7 @@ const projects: Project[] = [
     title: 'Chicago Art Institute API Project',
     description: 'An interactive web application showcasing artworks from the Art Institute of Chicago.',
     link: 'https://chicago-art-api.web.app/',
+    githubLink: 'https://github.com/braydonviragh/chicago-art-api-react-project',
     coverImage: '/images/art-project-screenshot.png',
     features: [
       'Browse artworks from the Art Institute of Chicago',
@@ -126,6 +137,7 @@ const projects: Project[] = [
     title: 'Think You Can Quiz',
     description: 'A React-based quiz application utilizing the Open Trivia API for dynamic question generation.',
     link: 'https://thinkyoucanquiz.web.app/',
+    githubLink: 'https://github.com/braydonviragh/Quiz-Application-ReactJS',
     coverImage: '/images/quiz-screenshot.png',
     features: [
       'Pull questions from Open Trivia API',

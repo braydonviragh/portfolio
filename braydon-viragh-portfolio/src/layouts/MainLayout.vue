@@ -56,7 +56,7 @@
       </q-list>
     </q-drawer>
 
-    <q-page-container>
+    <div class="pt-0">
       <div class="scroll-container">
         <section id="home" ref="homeSection" class="page-section text-center sm:text-left p-0 md:p-5">
           <Home />
@@ -71,7 +71,7 @@
           <Projects />
         </section>
       </div>
-    </q-page-container>
+    </div>
   </q-layout>
 </template>
 
