@@ -131,7 +131,7 @@ const projects: Project[] = [
       'Dedicated page for viewing saved favorites',
       'Responsive design for mobile and desktop',
     ],
-    techStack: ['Vue 3', 'Axios', 'Vuex', 'Art Institute of Chicago API'],
+    techStack: ['React', 'Redux', 'Redux Thunk', 'Semantic UI (CSS framework)','Art Institute of Chicago API'],
   },
   {
     title: 'Think You Can Quiz',
