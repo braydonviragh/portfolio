@@ -5,9 +5,6 @@
         <div class="text-h2 q-mb-md">Braydon Viragh</div>
         <div class="text-h5 q-mb-lg">Full Stack Developer <span class="text-primary">Frontend UI/UX Focused</span></div>
         <p class="text-body1 q-mb-lg">
-          Self-taught, self-driven, self-motivated.
-        </p>
-        <p class="text-body1 q-mb-lg">
             I thrive on taking on complex challenges, learning new skills, and building great products.
         </p>
         <div class="flex justify-center q-gutter-md">

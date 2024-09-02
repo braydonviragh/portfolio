@@ -2,7 +2,7 @@
     <div class="flex flex-center">
       <q-card flat bordered class="bg-transparent text-white q-pa-lg">
         <q-card-section>
-          <div class="text-h3">Skills & Values</div>
+          <div class="text-h3 q-mb-lg">Skills & Values</div>
           <div v-for="skill in skills" :key="skill.title" class="q-mb-lg">
           <div class="text-h6 text-primary">{{ skill.title }}</div>
           <div class="text-body1">{{ skill.description }}</div>
@@ -30,7 +30,7 @@
     },
     {
       title: 'Code With A Stratedy',
-      description: 'Never settling for technical debt, I plan my approach and strategize with best practices such as KISS, DRY, and SOLID, to ensure scalable, maintainable, and efficient code.',
+      description: 'Never settling for technical debt, I plan my approach and strategize with best practices to ensure scalable, maintainable, and efficient code.',
     },
     {
       title: 'Ownership Focused',

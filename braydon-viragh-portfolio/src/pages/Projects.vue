@@ -1,12 +1,12 @@
 <template>
-  <div class="full-width flex flex-center q-pa-md">
+  <div class="full-width flex flex-center q-pa-m">
     <q-card
         flat
         bordered
         class="bg-transparent text-white full-width"
     >
       <q-card-section>
-        <div class="text-h3 text-center q-mb-md">Projects</div>
+        <div class="text-h3 text-center q-mb-lg">Projects</div>
         <q-carousel
           v-model="slide"
           transition-prev="slide-right"
@@ -17,6 +17,7 @@
           navigation
           padding
           arrows
+          height="300px"
           class="bg-transparent text-white shadow-1 rounded-borders carousel-container max-w-[800px]"
         >
           <q-carousel-slide

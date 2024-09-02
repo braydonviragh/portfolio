@@ -34,27 +34,6 @@
               I have a solutions-oriented work ethic that drives me to always find answers. If I don't have a solution immediately, you can bet I'm working on one, and will update you as I make progress.
             </p>
           </q-carousel-slide>
-
-          <q-carousel-slide :name="3" class="column no-wrap flex-center p-0 md:p-5">
-            <div class="text-h5 q-mb-md">Simplifying Complexity</div>
-            <p class="text-body1 q-mb-lg text-center">
-              Taking complex ideas and problems and transforming them into user-friendly solutions. Coding languages are complex and I love to simplify it. My goal is to ensure that the user has a positive and seamless experience.
-            </p>
-          </q-carousel-slide>
-
-          <q-carousel-slide :name="4" class="column no-wrap flex-center w-full p-0 md:p-5">
-            <div class="text-h5 q-mb-md">Other Hobbies</div>
-            <div class="flex flex-wrap gap-2 justify-center">
-              <q-chip
-                v-for="hobby in hobbies"
-                :key="hobby"
-                icon="favorite"
-                color="primary"
-                text-color="white">
-                {{ hobby }}
-              </q-chip>
-            </div>
-          </q-carousel-slide>
         </q-carousel>
       </q-card-section>
     </q-card>
@@ -65,7 +44,6 @@
 import { ref } from 'vue'
 
 const slide = ref(1)
-const hobbies = ['Golf', 'Fitness', 'Basketball', 'Soccer', 'Video Games']
 </script>
 
 <style scoped>
