@@ -61,9 +61,6 @@
         <section id="home" ref="homeSection" class="page-section text-center sm:text-left p-0 md:p-5">
           <Home />
         </section>
-        <section id="about" ref="aboutSection" class="page-section text-center sm:text-left p-0 md:p-5">
-          <About />
-        </section>
         <section id="skills" ref="skillsSection" class="page-section text-center sm:text-left p-0 md:p-5">
           <Skills />
         </section>
@@ -78,7 +75,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import Home from 'pages/Home.vue'
-import About from 'pages/About.vue'
 import Skills from 'pages/Skills.vue'
 import Projects from 'pages/Projects.vue'
 
@@ -87,13 +83,11 @@ const currentSection = ref('home')
 
 const links = [
   { to: '#home', icon: 'home', label: 'Home' },
-  { to: '#about', icon: 'person', label: 'About' },
   { to: '#skills', icon: 'code', label: 'Skills' },
   { to: '#projects', icon: 'work', label: 'Projects' },
 ]
 
 const homeSection = ref(null)
-const aboutSection = ref(null)
 const skillsSection = ref(null)
 const projectsSection = ref(null)
 
@@ -117,7 +111,7 @@ onMounted(() => {
     })
   }, { threshold: 0.5 })
 
-  ;[homeSection.value, aboutSection.value, skillsSection.value, projectsSection.value].forEach((section) => {
+  ;[homeSection.value, skillsSection.value, projectsSection.value].forEach((section) => {
     if (section) observer.observe(section)
   })
 })
