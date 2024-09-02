@@ -1,5 +1,5 @@
 <template>
-  <div class="full-width flex flex-center q-pa-m">
+  <div class="page-content">
     <q-card
         flat
         bordered
