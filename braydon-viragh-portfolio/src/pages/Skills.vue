@@ -2,10 +2,10 @@
   <div class="page-content">
     <q-card flat bordered class="bg-transparent text-white q-pa-lg">
         <q-card-section>
-          <div class="text-h3">Skills & Values</div>
+          <div class="text-h4">Skills & Values</div>
           <div v-for="skill in skills" :key="skill.title" class="q-mb-sm">
           <div class="text-h6 text-primary">{{ skill.title }}</div>
-          <div class="text-body2">{{ skill.description }}</div>
+          <div class="text-caption">{{ skill.description }}</div>
         </div>
           <div class="text-h5">Tech Stack</div>
           <div class="flex flex-wrap gap-2 justify-center md:justify-start">
@@ -13,7 +13,8 @@
                 v-for="tech in techStack"
                 :key="tech"
                 color="primary"
-                text-color="white">
+                text-color="white"
+                class="text-caption">
             {{ tech }}
             </q-chip>
           </div>
@@ -21,7 +22,6 @@
       </q-card>
     </div>
   </template>
-  
   <script setup lang="ts">
   const skills = [
     {
