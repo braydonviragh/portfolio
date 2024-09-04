@@ -25,8 +25,8 @@
   <script setup lang="ts">
   const skills = [
     {
-      title: 'Strong Communication',
-      description: 'Providing regular updates, estimates, and meeting deadlines. Ensuring transparency throughout the development process.',
+      title: 'Solution Oriented',
+      description: "Driven to always find an answer. If I don't have a solution immediately, you can bet I'm working on one, and will update you as I make progress. Providing regular updates, estimates, and meeting deadlines.",
     },
     {
       title: 'Code With A Stratedy',
