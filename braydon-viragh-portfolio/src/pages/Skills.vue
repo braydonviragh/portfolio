@@ -29,7 +29,7 @@
       description: "Driven to always find an answer. If I don't have a solution immediately, you can bet I'm working on one, and will update you as I make progress. Providing regular updates, estimates, and meeting deadlines.",
     },
     {
-      title: 'Code With A Stratedy',
+      title: 'Code With A Strategy',
       description: 'Never settling for technical debt, I plan my approach and strategize with best practices such as KISS, DRY, and SOLID, to ensure scalable, maintainable, and efficient code.',
     },
     {
