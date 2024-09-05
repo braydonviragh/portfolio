@@ -30,11 +30,11 @@
     },
     {
       title: 'Code With A Strategy',
-      description: 'Never settling for technical debt, I plan my approach and strategize with best practices such as KISS, DRY, and SOLID, to ensure scalable, maintainable, and efficient code.',
+      description: 'Never settling for technical debt, I plan my approach and strategize with best practices. Adhering to rules such as KISS, DRY, and SOLID, to ensure scalable, maintainable, and efficient code.',
     },
     {
       title: 'Ownership Focused',
-      description: 'Taking full responsibility for my work and delivering a product I can put my name on proudly. This ownership is reflected in my work ethic and attention to detail.',
+      description: 'Taking full responsibility for my work and delivering a product I can put my name on. This ownership is reflected in my work ethic and attention to detail.',
     },
   ]
 
