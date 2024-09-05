@@ -26,7 +26,7 @@
   const skills = [
     {
       title: 'Solution Oriented',
-      description: "Driven to always find an answer. If I don't have a solution immediately, you can bet I'm working on one, and will update you as I make progress. Providing regular updates, estimates, and meeting deadlines.",
+      description: "Driven to always find an answer. If I don't have a solution immediately, you can bet I'm working on one. Providing regular updates, estimates, and meeting deadlines.",
     },
     {
       title: 'Code With A Strategy',
