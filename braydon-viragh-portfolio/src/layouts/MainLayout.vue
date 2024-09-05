@@ -11,7 +11,7 @@
           class="lt-md"
           @click="toggleLeftDrawer"
         />
-        <q-toolbar-title>Braydon Viragh</q-toolbar-title>
+        <q-toolbar-title class="cursor-pointer" @click="scrollToSection('home')">Braydon Viragh</q-toolbar-title>
         <q-tabs
           v-model="currentSection"
           class="gt-sm"
