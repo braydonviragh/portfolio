@@ -35,7 +35,7 @@
             label="Resume"
             size="lg"
             type="a"
-            href="/files/full-stack-developer-braydon-viragh.pdf"
+            href="/files/Braydon Viragh Resume- -.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download
