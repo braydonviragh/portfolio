@@ -3,7 +3,7 @@
     <q-card flat bordered class="bg-transparent text-white w-full md:q-pa-md">
       <q-card-section>
         <div class="text-h2 q-mb-md">Braydon Viragh</div>
-        <div class="text-h5 q-mb-lg">Frontend Developer <span class="text-primary">UI/UX Focused</span></div>
+        <div class="text-h5 q-mb-lg">Full Stack Developer <span class="text-primary">UI/UX Focused</span></div>
         <p class="text-body1 q-mb-lg">
           Self-taught, self-driven, self-motivated.
           Love taking on challenges, learning new skills, and building great products.
@@ -35,7 +35,7 @@
             label="Resume"
             size="lg"
             type="a"
-            href="/files/Braydon Viragh Frontend Developer Resume-.pdf"
+            href="/files/Braydon Viragh Full Stack Developer Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download
