@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "bpvportfolio"
-  }
+    "default": "bpvportfolio",
+    "b": "bpvportfolio"
+  },
+  "targets": {},
+  "etags": {}
 }

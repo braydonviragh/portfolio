@@ -1,51 +1,65 @@
 <template>
   <div class="page-content">
+    <!-- Main content with name and slogan -->
     <q-card flat bordered class="bg-transparent text-white w-full md:q-pa-md">
       <q-card-section>
-        <div class="text-h2 q-mb-md">Braydon Viragh</div>
-        <div class="text-h5 q-mb-lg">Full Stack Developer <span class="text-primary">UI/UX Focused</span></div>
-        <p class="text-body1 q-mb-lg">
+        <div class="text-h2 q-mb-sm">Braydon Viragh</div>
+        <div class="text-h5 q-mb-sm">Full Stack Developer <span class="text-primary">UI/UX Focused</span></div>
+        <div class="mb-0 italic">
           Self-taught, self-driven, self-motivated.
           Love taking on challenges, learning new skills, and building great products.
-        </p>
-        <div class="flex justify-center q-gutter-md">
-          <q-btn
-          color="primary"
-          rounded
-          size="lg"
-          type="a"
-          href="https://linkedin.com/in/braydon-viragh"
-          target="_blank"
-          label="LinkedIn"
-          rel="noopener noreferrer"
-        />
-        <q-btn
-          color="primary"
-          rounded
-          label="GitHub"
-          size="lg"
-          type="a"
-          href="https://github.com/braydonviragh"
-          target="_blank"
-          rel="noopener noreferrer"
-        />
-        <q-btn
-            color="primary"
-            rounded
-            label="Resume"
-            size="lg"
-            type="a"
-            href="/files/Braydon Viragh Full Stack Developer Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-          >
-            <template #default>
-              <q-icon name="download" />
-            </template>
-          </q-btn>
         </div>
       </q-card-section>
     </q-card>
+    
+    <!-- Recent Projects Carousel -->
+    <div class="mt-8">
+      <ProjectCarousel 
+        :projects="projects"
+        height="400px"
+      />
+    </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import ProjectCarousel from 'components/ProjectCarousel.vue'
+import { projects } from '../data/projects'
+</script>
+
+<style scoped>
+.full-width {
+  width: 100%;
+}
+
+.carousel-container {
+  min-height: 400px;
+  max-height: 600px;
+}
+
+.project-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-modal {
+  border-radius: 8px;
+}
+
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+a.hover\:text-primary:hover {
+  color: var(--color-primary);
+}
+</style>

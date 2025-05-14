@@ -1,0 +1,62 @@
+import { Project } from 'components/models'
+
+export const projects: Project[] = [
+  {
+    title: 'Marketplace',
+    description: 'A Vue.js-powered clothing rental platform implementing advanced state management and responsive design patterns with Quasar Framework.',
+    link: 'https://spindle-marketplace-demo.up.railway.app/',
+    githubLink: 'https://github.com/braydonviragh/marketplace-frontend',
+    coverImage: '/images/spindle.png',
+    features: [
+      'Built with Quasar Framework components and custom CSS for responsive, cross-platform UI',
+      'Used Vuex store architecture with namespaced modules for better state management',
+      'Created dynamic query builder with custom filters and real-time data updates',
+      'Added Vue Router with navigation guards for protected routes and user authentication',
+      'Designed reusable component system using slots and provide/inject for better code structure',
+    ],
+    techStack: ['Vue.js', 'Vuex', 'Quasar Framework', 'RESTful API', 'Tailwind CSS', 'Responsive Design'],
+  },
+  {
+    title: 'Marketplace Backend',
+    description: 'Laravel-powered API backend implementing repository pattern architecture, relational database design, and secure payment processing.',
+    githubLink: 'https://github.com/braydonviragh/marketplace-backend',
+    coverImage: '/images/spindle-postman.png',
+    features: [
+      'Built with SOLID principles and repository pattern for better code organization',
+      'Created MySQL database with Eloquent ORM relationships (one-to-many, many-to-many, polymorphic)',
+      'Secured API endpoints with Laravel Sanctum tokens and middleware guards',
+      'Optimized database queries with eager loading and indexing for faster performance',
+      'Integrated Stripe Connect API for payment processing with automatic commission splitting',
+    ],
+    techStack: ['PHP', 'Laravel', 'MySQL', 'Repository Pattern', 'RESTful API', 'Stripe API', 'Laravel Sanctum'],
+  },
+  {
+    title: 'Chicago Art Institute API Project',
+    description: 'An interactive web application showcasing artworks from the Art Institute of Chicago.',
+    link: 'https://chicago-art-api.web.app/',
+    githubLink: 'https://github.com/braydonviragh/chicago-art-api-react-project',
+    coverImage: '/images/art-project-screenshot.png',
+    features: [
+      'Browse artworks from the Art Institute of Chicago',
+      'Save favorite artworks',
+      'Dedicated page for viewing saved favorites',
+      'Responsive design for mobile and desktop',
+    ],
+    techStack: ['React', 'Redux', 'Redux Thunk', 'Semantic UI', 'Art Institute of Chicago API'],
+  },
+  {
+    title: 'Think You Can Quiz',
+    description: 'A React-based quiz application utilizing the Open Trivia API for dynamic question generation.',
+    link: 'https://thinkyoucanquiz.web.app/',
+    githubLink: 'https://github.com/braydonviragh/Quiz-Application-ReactJS',
+    coverImage: '/images/quiz-screenshot.png',
+    features: [
+      'Pull questions from Open Trivia API',
+      'React state management for question handling',
+      'Save and track user answers',
+      'Interactive quiz interface',
+      'Responsive design for various devices',
+    ],
+    techStack: ['React', 'Open Trivia API', 'React State Management', 'CSS'],
+  },
+] 
