@@ -22,7 +22,7 @@
       >
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
           <q-card class="project-card full-width" @click="openProjectModal(project)">
-            <q-img :src="project.coverImage" :alt="project.title">
+            <q-img :src="project.coverImage" :alt="project.title" class="full-image">
               <div class="absolute-bottom text-center q-pa-sm bg-dark-transparent">
                 <div class="text-subtitle1 q-mb-xs">{{ project.title }}</div>
                 <div class="q-gutter-xs">
@@ -148,6 +148,8 @@ const openProjectModal = (project: Project) => {
   cursor: pointer;
   transition: transform 0.2s;
   height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .project-card:hover {
@@ -160,5 +162,52 @@ const openProjectModal = (project: Project) => {
 
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.full-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Ensure image covers the whole area */
+.q-img {
+  height: 100%;
+}
+
+.q-img__image {
+  background-size: cover !important;
+}
+
+/* Mobile specific adjustments */
+@media (max-width: 767px) {
+  .project-card {
+    width: 100% !important;
+    margin: 0 !important;
+    height: calc(100% - 35px) !important;
+  }
+  
+  .q-img {
+    height: 100% !important;
+  }
+  
+  .carousel-container {
+    min-height: calc(300px - 35px) !important;
+  }
+  
+  .absolute-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 8px !important;
+  }
+  
+  .tech-chip {
+    margin: 2px;
+  }
 }
 </style> 
