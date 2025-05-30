@@ -31,6 +31,22 @@ export const projects: Project[] = [
     techStack: ['PHP', 'Laravel', 'MySQL', 'Repository Pattern', 'RESTful API', 'Stripe API', 'Laravel Sanctum'],
   },
   {
+    title: 'Carelancer.com - Wordpress',
+    description: 'A fully responsive WordPress health service marketplace built with Divi theme and extensive custom functionality for connecting healthcare providers with clients.',
+    link: 'https://www.carelancer.com',
+    coverImage: '/images/wordpress-screenshot.png',
+    features: [
+      'Built with Divi theme and tons of custom code for enhanced functionality',
+      'Integrated Google Tag Manager for comprehensive analytics tracking',
+      'Implemented Termly plugin for custom cookie consent banner compliance',
+      'Created contact forms using Fluent Forms plugin to track customer information',
+      'Used Flamingo plugin for contact form data management and storage',
+      'Utilized WP Show Posts for dynamic content display and organization',
+      'Fully responsive design optimized for all devices and screen sizes',
+    ],
+    techStack: ['WordPress', 'Javascript', 'Custom JavaScript', 'Divi Theme', 'Fluent Forms', 'Flamingo', 'WP Show Posts', 'Termly', 'Google Tag Manager'],
+  },
+  {
     title: 'Chicago Art Institute API Project',
     description: 'An interactive web application showcasing artworks from the Art Institute of Chicago.',
     link: 'https://chicago-art-api.web.app/',
