@@ -2,6 +2,24 @@ import { Project } from 'components/models'
 
 export const projects: Project[] = [
   {
+    title: 'React JS Medical Tracker',
+    description: 'A full-stack medication management application built with React frontend and Express.js backend. Track medication adherence, monitor refill dates, and manage multiple prescriptions with automated refill calculations and visual progress indicators.',
+    link: 'https://react-medical-ui-production.up.railway.app/',
+    githubLink: 'https://github.com/braydonviragh/medical-tracker',
+    coverImage: '/images/react-medical-ui.png',
+    features: [
+      'React frontend with Tailwind CSS for modern, responsive UI design',
+      'Express.js backend with RESTful API endpoints for medication CRUD operations',
+      'Automated refill date calculations based on usage patterns and frequency',
+      'Visual progress bars and color-coded status indicators (Green/Yellow/Red)',
+      'Real-time adherence tracking with dose taken/missed records and percentage calculations',
+      'Dashboard statistics showing total medications, refills needed, and overdue alerts',
+      'Full medication lifecycle management: add, edit, delete, and track doses',
+      'Railway deployment for seamless cloud hosting and database persistence',
+    ],
+    techStack: ['React', 'Express.js', 'Node.js', 'RESTful API', 'Tailwind CSS', 'Railway'],
+  },
+  {
     title: 'Marketplace',
     description: 'A Vue.js-powered clothing rental platform implementing advanced state management and responsive design patterns with Quasar Framework.',
     link: 'https://spindle-marketplace-demo.up.railway.app/',
