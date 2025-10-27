@@ -2,13 +2,13 @@ import { Project } from 'components/models'
 
 export const projects: Project[] = [
   {
-    title: 'React JS Medical Tracker',
+    title: 'React.js  Medical Tracker',
     description: 'A full-stack medication management application built with React.js with a Express.js backend. Track medication adherence, monitor refill dates, and manage multiple prescriptions with automated refill calculations and visual progress indicators.',
     link: 'https://react-medical-ui-production.up.railway.app/',
     githubLink: 'https://github.com/braydonviragh/react-js-medical-ui',
     coverImage: '/images/react-medical-ui.png',
     features: [
-      'React frontend with Tailwind CSS for modern, responsive UI design',
+      'React.js frontend with Tailwind CSS for modern, responsive UI design',
       'Express.js backend with RESTful API endpoints for medication CRUD operations',
       'Automated refill date calculations based on usage patterns and frequency',
       'Visual progress bars and color-coded status indicators (Green/Yellow/Red)',
@@ -17,7 +17,7 @@ export const projects: Project[] = [
       'Full medication lifecycle management: add, edit, delete, and track doses',
       'Railway deployment for seamless cloud hosting and database persistence',
     ],
-    techStack: ['React', 'Express.js', 'Node.js', 'RESTful API', 'Tailwind CSS', 'Railway'],
+    techStack: ['React.js', 'Express.js', 'Node.js', 'RESTful API', 'Tailwind CSS', 'Railway'],
   },
   {
     title: 'Vue.js, PHP Laravel, + MYSQL Powered Marketplace',
