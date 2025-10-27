@@ -3,7 +3,7 @@ import { Project } from 'components/models'
 export const projects: Project[] = [
   {
     title: 'React JS Medical Tracker',
-    description: 'A full-stack medication management application built with React frontend and Express.js backend. Track medication adherence, monitor refill dates, and manage multiple prescriptions with automated refill calculations and visual progress indicators.',
+    description: 'A full-stack medication management application built with React.js with a Express.js backend. Track medication adherence, monitor refill dates, and manage multiple prescriptions with automated refill calculations and visual progress indicators.',
     link: 'https://react-medical-ui-production.up.railway.app/',
     githubLink: 'https://github.com/braydonviragh/medical-tracker',
     coverImage: '/images/react-medical-ui.png',
@@ -20,8 +20,8 @@ export const projects: Project[] = [
     techStack: ['React', 'Express.js', 'Node.js', 'RESTful API', 'Tailwind CSS', 'Railway'],
   },
   {
-    title: 'Marketplace',
-    description: 'A Vue.js-powered clothing rental platform implementing advanced state management and responsive design patterns with Quasar Framework.',
+    title: 'Vue.js, PHP Laravel, + MYSQL Powered Marketplace',
+    description: 'A Full Stack Vue.js, PHP Laravel, and MYSQL powered clothing rental platform implementing advanced state management and responsive design patterns with Quasar Framework.',
     link: 'https://spindle-marketplace-demo.up.railway.app/',
     githubLink: 'https://github.com/braydonviragh/marketplace-frontend',
     coverImage: '/images/spindle.png',
@@ -35,8 +35,8 @@ export const projects: Project[] = [
     techStack: ['Vue.js', 'Vuex', 'Quasar Framework', 'RESTful API', 'Tailwind CSS', 'Responsive Design'],
   },
   {
-    title: 'Marketplace Backend',
-    description: 'Laravel-powered API backend implementing repository pattern architecture, relational database design, and secure payment processing.',
+    title: 'PHP Laravel + MYSQL Powered Marketplace Backend',
+    description: 'PHP Laravel + MYSQL powered API backend implementing repository pattern architecture, relational database design, and secure payment processing.',
     githubLink: 'https://github.com/braydonviragh/marketplace-backend',
     coverImage: '/images/spindle-postman.png',
     features: [
