@@ -2,7 +2,7 @@ import { Project } from 'components/models'
 
 export const projects: Project[] = [
   {
-    title: 'React.js Medication Tracker Application',
+    title: 'React.js Medication Tracker',
     description: 'A full-stack medication management application built with React.js with a Express.js backend. Track medication adherence, monitor refill dates, and manage multiple prescriptions with automated refill calculations and visual progress indicators.',
     link: 'https://react-medical-ui-production.up.railway.app/',
     githubLink: 'https://github.com/braydonviragh/react-js-medical-ui',
@@ -12,6 +12,7 @@ export const projects: Project[] = [
       'Express.js backend with RESTful API endpoints for medication CRUD operations',
       'Automated refill date calculations based on usage patterns and frequency',
       'Visual progress bars and color-coded status indicators (Green/Yellow/Red)',
+      'RESTful API Endpoints save all user medication info to your local storage, for a personalized experience',
       'Real-time adherence tracking with dose taken/missed records and percentage calculations',
       'Dashboard statistics showing total medications, refills needed, and overdue alerts',
       'Full medication lifecycle management: add, edit, delete, and track doses',
