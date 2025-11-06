@@ -97,8 +97,11 @@
           <section id="skills" ref="skillsSection" class="page-section text-center sm:text-left p-0 md:p-5">
             <Skills />
           </section>
-          <section id="projects" ref="projectsSection" class="page-section text-center sm:text-left p-0 md:p-5">
+          <!-- <section id="projects" ref="projectsSection" class="page-section text-center sm:text-left p-0 md:p-5">
             <Projects />
+          </section> -->
+          <section id="about" ref="aboutSection" class="page-section text-center sm:text-left p-0 md:p-5">
+            <About />
           </section>
         </div>
       </div>
@@ -110,7 +113,8 @@
 import { ref, onMounted } from 'vue'
 import Home from 'pages/Home.vue'
 import Skills from 'pages/Skills.vue'
-import Projects from 'pages/Projects.vue'
+// import Projects from 'pages/Projects.vue'
+import About from 'pages/About.vue'
 
 const leftDrawerOpen = ref(false)
 const currentSection = ref('home')
@@ -118,12 +122,14 @@ const currentSection = ref('home')
 const links = [
   { to: '#home', icon: 'home', label: 'Home' },
   { to: '#skills', icon: 'code', label: 'Skills' },
-  { to: '#projects', icon: 'work', label: 'Projects' },
+  // { to: '#projects', icon: 'work', label: 'Projects' },
+  { to: '#about', icon: 'person', label: 'About' },
 ]
 
 const homeSection = ref(null)
 const skillsSection = ref(null)
-const projectsSection = ref(null)
+// const projectsSection = ref(null)
+const aboutSection = ref(null)
 
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value
@@ -145,7 +151,7 @@ onMounted(() => {
     })
   }, { threshold: 0.5 })
 
-  ;[homeSection.value, skillsSection.value, projectsSection.value].forEach((section) => {
+  ;[homeSection.value, skillsSection.value, aboutSection.value].forEach((section) => {
     if (section) observer.observe(section)
   })
 })
