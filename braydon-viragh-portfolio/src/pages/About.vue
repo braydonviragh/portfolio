@@ -28,12 +28,12 @@
               </p>
               
               <p class="q-mb-md">
-                Coding for me is a passion and a toolkit to achieve my greater interest: <span class="text-primary font-medium">to build great products</span>. 
-                I take pride in putting ownership in my work, and enjoy finding a solution to any problem. Every project is an opportunity to learn a skill or master a new technology.
+                Coding for me is not only a passion, but a means to achieve my greater interest: <span class="text-primary font-medium">to build great products</span>. 
+                I take pride in putting ownerxship in my work, and enjoy finding a solution to any problem. Every project is an opportunity to learn a skill or master a new technology.
               </p>
               
               <p class="q-mb-md">
-                When I'm not coding, you'll find me playing video games, golfing, staying active at the gym, 
+                When i'm not coding, you'll find me playing video games, golfing, staying active at the gym, 
                 and playing sports.
               </p>
             </div>
