@@ -56,6 +56,7 @@
   display: flex;
   align-items: center;
   min-height: 100%;
+  padding: 1rem 0;
 }
 
 .about-container {
@@ -122,6 +123,13 @@
 
 /* Mobile adjustments */
 @media (max-width: 767px) {
+  .page-content {
+    align-items: flex-start;
+    padding: 1.5rem 0 3rem 0;
+    min-height: auto;
+    height: auto;
+  }
+  
   .about-container {
     gap: 1.5rem;
   }
@@ -129,6 +137,20 @@
   .text-body1 {
     font-size: 0.95rem;
     line-height: 1.6;
+  }
+  
+  .q-card-section {
+    padding: 1rem !important;
+  }
+}
+</style>
+
+<style>
+/* Override page-section height on mobile for About page */
+@media (max-width: 767px) {
+  #about.page-section {
+    height: auto !important;
+    min-height: auto !important;
   }
 }
 </style>
