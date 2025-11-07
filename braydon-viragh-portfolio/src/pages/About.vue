@@ -81,8 +81,8 @@
 }
 
 .about-image {
-  width: 280px;
-  height: 280px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   border: 3px solid var(--color-primary);
   box-shadow: 0 0 20px rgba(188, 19, 254, 0.3);
@@ -111,8 +111,8 @@
   }
 
   .about-image {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
   }
 
   .about-content-column {
